@@ -1,0 +1,147 @@
+@media (max-width:1400px){
+    .header-3{display: none;}
+    .owl1, .owl2{padding: 30px;}
+}
+@media (max-width:1200px){
+    .header-3{display: none;}
+    .card .third{background-size: 100%;}
+    .owl1{padding: 40px;}
+    .owl1 .owl-carousel .item .card,.owl2 .owl-carousel .item .card{width: 14rem;}
+    .shirt .men-in-shirt img{margin-left: 50px;}
+    .shirt .row-2 .owl-carousel .item{margin-left: 5px;}
+    .about .row-2 img,.about .row-2 iframe{height: 450px;}
+
+
+
+}
+@media (max-width:992px){
+    .header .nav-link{font-size: 1rem;}
+    .header .nav-link:hover{font-size: 1rem;}
+    .header .image img{width: 70px;}
+    .header-3{display: none;}
+    .banner{max-height:267px;}
+    .banner .text {margin-top: 30px;}
+    .banner .text h5{font-size: 2.3rem;}
+    .banner .text .btn{transform: scale(0.8);}
+    .banner .text .mt-3{margin-top: 5px !important;}
+    .banner .img img{height:300px;}
+    .card .container{min-width: 95%;}
+    .card .first, .card .second{background-size: 100%;}
+    .card .third {background-size: 126%; background-position-x: -34px;}
+    .owl1 .owl-carousel .item .card,.owl2 .owl-carousel .item .card{width: 14rem;}
+    .owl1, .owl2{padding: 40px;}
+    .ticker p{font-size: 1.3rem;}
+    .shirt .men-in-shirt img{margin-left: 0px;}
+    .shirt .row-2 .owl-carousel .item{margin-left: 0px;}
+    .top .carousel-item img, .skirt .carousel-item img, .earings .carousel-item img, .bangels .carousel-item img, .payal .carousel-item img{margin-left: 0px;}
+    .top .women-in-top img{margin-left: 0px;}
+    .about .row-2 img,.about .row-2 iframe{height: 400px;}
+
+
+    
+}
+@media (max-width:860px){
+    .header{display: none;}
+    .header-3{display: block;}
+    .card .first, .card .second, .card .third{max-height: 319px;min-height: 300px;}
+    .ticker p{font-size: 1.2rem;}
+    .top .look-alike, .skirt .dress-up{padding-left: 0px;}
+    .top .women-in-top, .skirt .women-dress-up{display: flex; justify-content: center; margin-top: 10px;}
+    .skirt .women-dress-up img{margin-left: 0px;}
+    
+}
+@media (max-width:768px){
+    .header{display: none;}
+    .header-3{display: block;}
+    .header-3 .navbar .nav-link{font-size: 1rem;}
+    .header-3 .navbar .nav-link:hover{font-size: 1rem;}
+    .banner .text {margin-top: 30px;}
+    .banner .text h5{font-size: 2rem;}
+    .banner .img{margin-left: -90px;}
+    .banner .img img{height:250px;}
+    .card .first, .card .second {background-size: 127%; background-position-x: -20px;max-height: 273px;min-height: 250px;}
+    .card .third{max-height: 273px;min-height: 250px; background-size: 144%;}
+    .card .first h6, .card .second h6, .card .third h6{font-size: 0.9rem;margin-top: -56px;}
+    .card .first p, .card .second p, .card .third p{font-size: 0.8rem;}
+    .card .first .btn, .card .second .btn, .card .third .btn{transform: scale(0.8); font-size: 0.9rem;}
+    .spe-ed{height: 300px;}
+    .spe-ed .text p{font-size: 0.8rem;}
+    .spe-ed .text h5{font-size: 2rem;}
+    .spe-ed .text .buy{font-size: 1rem;}
+    .spe-ed .text .btn{font-size: 0.8rem;}
+    .spe-ed .image img{width: 300px;}
+    .ticker .container{min-width: 576px; max-width: 768px;}
+    .ticker p{font-size: 1rem;}
+    .t-shirt .smile-carousel{margin-left: 106px;}
+    .shirt .men-in-shirt{margin-top: 10px;}
+    .shirt .men-in-shirt img{margin-left: 0px;}
+    .shirt .row-2 .shirt-carousel{margin-left: 151px;}
+    .suit .men-in-suit, 
+    .payal .women-leg-up, 
+    .bangels .women-hand-up{margin-top: 10px;}
+    .earings .women-ear-up img{margin-top: 10px;}
+    .earings .ear-up, 
+    .bangels .hand-up,
+    .payal .leg-up{padding-left: 0px;}
+    .about .row-2 iframe{width: 100%;}
+    .about .row-2 img,.about .row-2 iframe{height: 300px;}
+
+
+}
+@media (max-width:576px){
+    .banner .img{margin-left: -102px;margin-top: 87px;}
+    .banner .img img{height:150px;}
+    .logo .grid-item{font-size: 0.9rem !important;}
+    .card .first, .card .second {background-size: 94%; background-position-x: 17px;}
+    .card .third{background-size: 89%; background-position-x: 10px;}
+    .card .first h6, .card .second h6, .card .third h6{font-size: 1.1rem;margin-top: -56px;}
+    .card .first p, .card .second p, .card .third p{font-size: 0.9rem;}
+    .card .first .btn, .card .second .btn, .card .third .btn{transform: scale(0.9); font-size: 1rem; margin-left: -10px;}
+    .owl1 .owl-carousel .item .card,.owl2 .owl-carousel .item .card{width: 16rem;}
+    .owl1, .owl2{padding: 0px 100px;}
+    .spe-ed{height: 270px;}
+    .spe-ed .text{padding: 5px;}
+    .spe-ed .text .buy{font-size: 1rem;}
+    .spe-ed .image img{width: 270px; margin-left: -50px;opacity: 0.7;}
+    .ticker p{font-size: 0.9rem;}
+    .t-shirt .smile-carousel{margin-left:0px;}
+
+    .suit .more{margin-left: 0px;}
+    .shirt .men-in-shirt{margin-top: 10px;}
+    .shirt .men-in-shirt img{margin-left: 0px;}
+    .suit .men-in-suit img{margin-left: 0px;}
+    .shirt .row-2 .carousel{margin-left: 0px;}
+    .shirt .row-2 .shirt-carousel{margin-left: 100px;}
+
+
+}
+@media(max-width:500px){
+    .owl1, .owl2{padding: 0px 50px;}
+    .spe-ed .image img{width: 170px; margin-left: -40px;margin-top: -64px;opacity: 1;border-radius: 50%;}
+    .spe-ed .text .buy{font-size: 0.9rem;}
+    .ticker p{font-size: 0.9rem;}
+    .shirt .men-in-shirt{margin-top: 10px;}
+    .shirt .row-2 .shirt-carousel{margin-left: 0px;}
+    .about .row-2 img,.about .row-2 iframe{height: 250px;}
+    .about .text{display: none;}
+
+
+}
+@media(max-width:400px){
+    .spe-ed:before{ content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('../images/winter.png'); background-size: cover; background-position: center; opacity: 0.7;}
+    .spe-ed .image{display: none;}
+    .spe-ed .text{position: absolute;z-index: 1;top: 9px;}
+    .ticker .container-fluid{max-width: 350px;}
+    .ticker p{font-size: 0.8rem;}
+    .copy .para, .copy .logos{display: flex; justify-content: center;}
+    .shirt .more {padding-left: 0px;}
+    .shirt .men-in-shirt{margin-top: 10px;}
+    .shirt .men-in-shirt img{margin-left: 0px;}
+    .shirt .row-2 .shirt-carousel{display: flex; justify-content: center;}
+    .shirt .row-2 .carousel{margin-left: 0px;}
+    .suit .more{margin-left: 0px;}
+    .suit .men-in-suit{display: flex; justify-content: center; margin-top: 10px;}
+    .suit .men-in-suit img{margin-left: 0px;}
+    .shirt .row-2 .shirt-carousel{margin-left: 30px;}
+
+}   

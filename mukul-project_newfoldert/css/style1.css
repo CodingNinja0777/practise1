@@ -1,0 +1,116 @@
+body{font-family: mulish;}
+
+.header{background-color: #045486;}
+.header .nav-link{color: white;font-size: 1.2rem; padding: 14px;}
+
+.banner{background-color: #045486;position: relative; min-height: 410px;}
+.banner .text {position: absolute; top: 121px; left: 128px;}
+.banner .text h5{font-family: 'roboto slab';}
+.banner .img{max-height: 250px;position: relative;}
+.banner .img img{position: absolute;top: 50px; left: 0px;}
+
+.logo{
+    position: relative;
+    margin-top: 20px;
+}
+.logo .grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.logo .grid .grid-item{
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.card{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.card .first,.card .second,.card .third{padding:150px 20px 50px 20px;}
+.card .first{
+    background-color: rgb(255, 176, 188);
+    color:white; 
+    position: relative;
+    background-image: url('../images/tank.png');
+    min-height:363px;
+    background-size: 90%;
+}
+.card .second{
+    background-color: rgb(47, 69, 231);
+    color: white;
+    background-image: url('../images/R-removebg-preview.png');
+    min-height:363px;
+    background-size: 90%;
+}
+.card .third{
+    background-color: rgb(226, 149, 220);
+    color: white;
+    background-image: url('../images/OIP__1_-removebg-preview.png');
+    min-height:363px;
+    background-size: 90%;
+}
+.head h5{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600px;
+}
+.head hr{
+    width: 72px;
+    margin-left: 621px;
+    background: #0db5e5;
+    color: #0db5e5;
+    height: 5px;
+}
+
+.owl1 .owl-carousel{
+    position: relative;
+    margin-left: 9px;
+}
+.owl1 .owl-carousel .owl-dots{
+    display: none;
+}
+.owl1 .owl-carousel .card{
+    position: relative;
+    border: black 1px solid;
+}
+.owl1 .owl-carousel .item .card img{
+    height: 250px;
+    width: auto;
+}
+/* owl2 */
+.owl2 .owl-carousel{
+    position: relative;
+    margin-left: 15px;
+}
+.owl2 .owl-carousel .owl-dots{
+    display: none;
+}
+.owl2 .owl-carousel .card{
+    position: relative;
+    border: black 1px solid;
+}
+.owl2 .owl-carousel .item .card img{
+    height: 250px;
+    width: auto;
+}
+
+.spe-ed{
+    background-color: #0db5e5;
+    position: relative;
+}
+.spe-ed .text{
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.spe-ed .image{
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
+
