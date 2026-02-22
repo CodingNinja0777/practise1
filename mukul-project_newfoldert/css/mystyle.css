@@ -1,0 +1,685 @@
+body{
+    font-family: mulish;
+    overflow-x: hidden;
+    background-color: rgb(234, 229, 229);
+}
+
+.header{
+    background-color: #045486;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+.header .nav-link{
+    color: white;
+    font-size: 1.2rem;
+    /* padding: 14px;  */
+    border-radius: 50%; 
+    transition: 0.3s; 
+    border-radius: 25px 0px 25px 0px;
+}
+.header .nav-link:hover{
+    color: #045486;
+    font-size: 1.2rem; 
+    /* padding: 14px;  */
+    background-color: white; 
+    border-radius: 25px 0px 25px 0px; 
+    transition: 0.3s;
+    font-weight: 500;
+}
+.header .nav-link .fa-solid{
+    color: white;
+}
+.header .nav-link .ri-shopping-bag-4-line{
+    /* color: white; */
+    font-size: 22px;
+}
+/* burger-menu */
+.header-2{background-color: #045486;position: sticky;top: 0px;z-index: 5;}
+.header-2 .accordion-item{border: 0px;}
+.header-2 .accordion-header{background-color: #045486;}
+.header-2 .accordion-header .burger{background-color: #045486;}
+.header-2 .accordion-header .burger .burger-line{
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.header-2 .accordion-header .burger .burger-line::before{
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    right: 0px;
+    content: "";
+    top: -7px;
+}
+.header-2 .accordion-header .burger .burger-line::after{
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    right: 0px;
+    content: "";
+    top: 7px;
+}
+.header-2 .accordion-body{background-color: #045486;}
+.header-2 .accordion-body .nav-item{list-style: none;}
+.header-2 .accordion-body .nav-item .nav-link{text-decoration: none; color: white;font-size: 1.2rem;padding: 5px;border-radius: 25px;}
+.header-2 .accordion-body .nav-item .nav-link:hover{text-decoration: none; color: white;font-size: 1.2rem; background-color: rgb(117, 108, 108); border-radius: 25px;}
+/* burger-menu// */
+
+/* header-3 */
+.header-3{position: sticky; top: 0px; z-index: 5;}
+.header-3 .navbar{background-color: #045486 !important;}
+.header-3 .navbar .nav-link{color: white; font-size: 1.2rem;padding-left: 6px;}
+.header-3 .navbar .nav-link:hover{color: white; font-size: 1.2rem; background-color: rgb(147, 140, 140);}
+.header-3 .navbar .navbar-toggler-icon{background-color: black; width: 20px; height: 3px;position: relative;}
+.header-3 .navbar .navbar-toggler-icon::before{
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: -3px;
+}
+.header-3 .navbar .navbar-toggler-icon::after{
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    top: 7px;
+    content: "";
+    left: 3px;
+}
+
+/* header-3// */
+.banner{background-color: #045486;position: relative;max-height:356px;}
+.banner .text {margin-top: 70px;}
+.banner .text h5{font-family: 'roboto slab';}
+.banner .img img{height:400px;}
+
+.logo{
+    position: relative;
+    margin-top: 20px;
+}
+.logo .grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.logo .grid .grid-item{
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+
+.card{
+    /* position: relative; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.card .first,.card .second,.card .third{padding:150px 20px 50px 20px;}
+.card .first{
+    background-color: rgb(255, 176, 188);
+    color:white; 
+    position: relative;
+    background-image: url('../images/tank.png');
+    min-height:363px;
+    background-size: 90%;
+}
+.card .second{
+    background-color: rgb(47, 69, 231);
+    color: white;
+    background-image: url('../images/R-removebg-preview.png');
+    min-height:363px;
+    background-size: 90%;
+}
+.card .third{
+    background-color: rgb(226, 149, 220);
+    color: white;
+    background-image: url('../images/OIP__1_-removebg-preview.png');
+    min-height:363px;
+    background-size: 90%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.head h5{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    border-bottom: 4px solid rgb(127, 206, 234);
+    padding-bottom: 16px;
+}
+
+/* featured-products */
+.owl1 .owl-carousel .item .card,.owl2 .owl-carousel .item .card{width: 14.2rem;}
+.owl1{padding: 4px;}
+
+.owl1 .owl-carousel{
+    position: relative;
+}
+.owl1 .owl-carousel .owl-dots{
+    display: none;
+}
+.owl1 .owl-carousel .card{
+    position: relative;
+    border: black 1px solid;
+}
+.owl1 .owl-carousel .item .card img{
+    height: 250px;
+    width: auto;
+}
+/* owl2 */
+.owl2 .owl-carousel{
+    position: relative;
+}
+.owl2 .owl-carousel .owl-dots{
+    display: none;
+}
+.owl2 .owl-carousel .card{
+    position: relative;
+    border: black 1px solid;
+}
+.owl2 .owl-carousel .item .card img{
+    height: 250px;
+    width: auto;
+}
+
+.spe-ed{
+    background-color: #09659e;
+    position: relative;
+    height: 448px;
+}
+.spe-ed .row{
+    display: flex;
+    align-items: center;
+    
+    color: white;
+}
+.spe-ed .text{
+    color: white;
+    padding-left: 50px;
+}
+.spe-ed .text h5{
+    font-size: 2.25rem;
+}
+.spe-ed .text .buy{
+    font-size: 1.1rem;
+}
+.spe-ed .image{
+    display: flex;
+    justify-content: center;
+}
+
+.perks{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(170, 167, 167);
+}
+.perks .col-xl-3{
+    text-align: center;
+}
+
+.perks .ri-earth-line{
+    font-size: 44px;
+}
+.perks .women{
+    width: 42px;
+    margin: 14px 0px 10px 0px;
+}
+.perks .tag {
+    height: 44px;
+    margin: 14px 0px 10px 0px;
+}
+.perks .ri-lock-2-line{
+    font-size: 42px;
+}
+.perks .row2{
+    margin-top: 2px;
+}
+.perks h5{
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+.perks p{
+    font-size: 1rem;
+}
+.ticker p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.last{
+    margin-bottom: 50px;
+}
+.last .row-1 p{
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-left: 11px;
+}
+.last .row-1 img{
+    transform: skewX(-20deg);
+    margin-bottom: 20px;
+}
+.last .row-2{
+    position: relative;
+}
+.last .row-2 h5{
+    font-size: 1.0rem;
+    font-weight: 700;
+}
+.last .row-2 .sub{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.last .row-2 li{
+    font-size: 0.7rem;
+    font-weight: 500;
+    list-style: none;
+    margin-left: -30px;
+}
+.last .row-2 input{
+    margin-bottom: 10px;
+}
+.copy .logos{
+    display: flex;
+    justify-content: end;
+}
+
+.vdodiv{position: relative;}
+.vdodiv .samplevideo{width:100%; height:600px;}
+
+/* About-us */
+
+.about{display: block;}
+.about .row-2{position: relative;}
+.about .row-2 .text {
+    position: absolute;
+    top: 260px;
+    left: 257px;
+}
+.about .row-2 .text p a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* About-us// */
+
+/* Tshirt */
+.t-shirt .carousel-item img{max-height: 244px; min-height: 244px;    border-radius: 25px;}
+.t-shirt,.shirt{position: relative;background-color: rgb(124, 121, 121);}
+.t-shirt .more h5,.shirt .more h5{font-size: 2rem; color: yellow;margin-top: 50px;}
+.t-shirt .more p,.shirt .more p{font-size: 1rem; color: white; margin-top: 30px;}
+.t-shirt .more .explore{
+    display: flex;
+    justify-content: center;
+}
+.t-shirt .more .explore a{
+    background-color: rgb(75, 70, 70);
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.t-shirt .more .explore a:hover{
+    background-color: yellow;
+    color: rgb(75, 70, 70);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.t-shirt .more .explore .fa-arrow-right,.shirt .more .explore .fa-arrow-right{
+    color: yellow;
+    transition: 0.3s;
+}
+.t-shirt .more .explore:hover .fa-arrow-right,.shirt .more .explore:hover .fa-arrow-right{
+    color: rgb(75, 70, 70);
+    transition: 0.3s;
+}
+/* Tshirt// */
+
+/* Shirt */
+.shirt .men-in-shirt{
+    display: flex;
+    justify-content: center;
+}
+.shirt .men-in-shirt img{
+    width: 256px;
+    height: 284px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+.shirt .more{
+    padding-left: 0px;
+}
+.shirt .more .explore{
+    display: flex;
+    justify-content: center;
+}
+.shirt .more .explore a{
+    background-color: rgb(75, 70, 70);
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.shirt .more .explore a:hover{
+    background-color: yellow;
+    color: rgb(75, 70, 70);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.shirt.row-2{
+    position: relative;
+}
+.shirt .row-2 .more .explore{
+    display: flex;
+    justify-content: center;
+}
+.shirt .row-2 .more .explore a{
+    background-color: rgb(75, 70, 70);
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.shirt .row-2 .more .explore a:hover{
+    background-color: yellow;
+    color: rgb(75, 70, 70);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+/* Shirt// */
+
+/* suit */
+.suit{position: relative;background-color: rgb(124, 121, 121);}
+.suit .more{margin-left: 50px;}
+.suit .more h5{font-size: 2rem; color: yellow;margin-top: 50px;}
+.suit .more p{font-size: 1rem; color: white; margin-top: 30px;}
+.suit .men-in-suit{display: flex; justify-content: center;}
+.suit .men-in-suit img {
+    width: 215px;
+    height: 284px;
+    margin-left: 25px;
+    border-radius: 25px;
+}
+.suit .more .explore{
+    display: flex;
+    justify-content: center;
+}
+.suit .more .explore a{
+    background-color: rgb(75, 70, 70);
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.suit .more .explore a:hover{
+    background-color: yellow;
+    color: rgb(75, 70, 70);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+/* suit// */
+/* top */
+.row-bottom{
+    border-bottom: 4px red solid;
+    padding: 20px 0px;
+}
+.top, .skirt, .earings, .bangels, .payal{
+    background-color: rgb(124, 121, 121);
+    padding: 20px 0px;
+}
+.top .carousel-item img, .skirt .carousel-item img, .earings .carousel-item img, .bangels .carousel-item img, .payal .carousel-item img{
+    height: 280px;
+    width: 230px;
+    margin-left: 90px;
+    border-radius: 25px;
+}
+.top .more-top, .skirt .more-skirt, .earings .more-earings, .bangels .more-bangels, .payal .more-payal{position: relative;}
+.top .more-top h5, .skirt .more-skirt h5, .earings .more-earings h5, .bangels .more-bangels h5, .payal .more-payal h5{font-size: 2rem; color: yellow;margin-top: 50px;}
+.top .more-top p, .skirt .more-skirt p, .earings .more-earings p, .bangels .more-bangels p, .payal .more-payal p{font-size: 1rem; color: white; margin-top: 30px;}
+.top .more-top .explore,.top .look-alike .explore, .skirt .more-skirt .explore, .skirt .dress-up .explore{display: flex; justify-content: center;}
+.top .more-top .explore a,.top .look-alike .explore a, .skirt .more-skirt .explore a, .skirt .dress-up .explore a{
+    background-color: rgb(75, 70, 70);
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.top .more-top .explore a:hover,.top .look-alike .explore a:hover, .skirt .more-skirt .explore a:hover, .skirt .dress-up .explore a:hover{
+    background-color: yellow;
+    color: rgb(75, 70, 70);
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.top .women-in-top img, .skirt .women-dress-up img, .earings .women-ear-up img, .bangels .women-hand-up img, .payal .women-leg-up img{
+    height: 300px;
+    width: auto;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+.top .look-alike, 
+.skirt .dress-up, 
+.earings .ear-up, 
+.bangels .hand-up, 
+.payal .leg-up{position: relative; padding-left: 50px;}
+
+.top .look-alike h5, 
+.skirt .dress-up h5, 
+.earings .ear-up h5, 
+.bangels .hand-up h5, 
+.payal .leg-up h5{font-size: 2rem; color: yellow;margin-top: 50px;}
+
+.top .look-alike p, 
+.skirt .dress-up p, 
+.earings .ear-up p, 
+.bangels .hand-up p, 
+.payal .leg-up p{font-size: 1rem; color: white; margin-top: 30px;}
+
+.top .top-carousel,
+.skirt .skirt-carousel,
+.earings .earing-carousel,
+.bangels .bangel-carousel,
+.payal .payal-carousel,
+.shirt .shirt-carousel{display: flex; justify-content: center;}
+
+.top .owl-carousel,
+.skirt .owl-carousel, 
+.earings .owl-carousel, 
+.bangels .owl-carousel,
+.payal .owl-carousel,
+.shirt .owl-carousel{width: 230px;}
+
+.top .owl-carousel .item img, 
+.skirt .owl-carousel .item img, 
+.earings .owl-carousel .item img, 
+.bangels .owl-carousel .item img,
+.payal .owl-carousel .item img,
+.shirt .owl-carousel .item img{height: 280px; width: 230px; border-radius: 25px;}
+
+.earings .more-earings .explore, 
+.earings .ear-up .explore, 
+.earings .women-ear-up, 
+.bangels .women-hand-up, 
+.bangels .more-bangels .explore, 
+.bangels .hand-up .explore,
+.payal .women-leg-up, 
+.payal .more-payal .explore, 
+.payal .leg-up .explore{display: flex; justify-content: center;}
+
+.earings .more-earings .explore a, 
+.earings .ear-up .explore a, 
+.bangels .more-bangels .explore a, 
+.bangels .hand-up .explore a, 
+.payal .more-payal .explore a,
+.payal .leg-up .explore a{background-color: rgb(75, 70, 70); color: yellow; text-decoration: none; font-size: 1.2rem;border-radius: 15px; transition: 0.3s; font-weight: bold;}
+
+.earings .more-earings .explore a:hover, 
+.earings .ear-up .explore a:hover, 
+.bangels .more-bangels .explore a:hover, 
+.bangels .hand-up .explore a:hover, 
+.payal .more-payal .explore a:hover,
+.payal .leg-up .explore a:hover{background-color: yellow; color: rgb(75, 70, 70); text-decoration: none; font-size: 1.2rem;border-radius: 15px; transition: 0.3s; font-weight: bold;}
+
+.earings .women-ear-up img, 
+.bangels .women-hand-up img{margin-left: 0px;}
+.payal .women-leg-up img{margin-left: 0px; width: 249px;}
+
+.earings .ear-up, 
+.bangels .hand-up,
+.payal .leg-up{padding-left: 20px;}
+/* top// */
+
+
+/* details */
+.know{
+    position: relative;
+}
+.know .details{position: absolute;background-color: #1762e3;padding-top: 50px; top: 10px; left: 100px;min-width: 1300px;}
+
+.know .details .locate{
+    background-color: white;
+    max-width: 266px;
+    /* position: absolute; */
+    left: 60px;
+    top: 50px;
+    z-index: 3;
+    height: 150px;
+
+    
+}
+.know .details .call{
+    background-color: white;
+    max-width: 266px;
+    /* position: absolute; */
+    left: 360px;
+    top: 50px;
+    z-index: 3;
+    height: 150px;
+    
+}
+.know .details .fax{
+    background-color: white;
+    max-width: 266px;
+    /* position: absolute; */
+    left: 660px;
+    top: 50px;
+    z-index: 3;
+    height: 150px;
+    
+}
+.know .details .email{
+    background-color: white;
+    max-width: 266px;
+    /* position: absolute; */
+    left: 960px;
+    top: 50px;
+    z-index: 3;
+    height: 150px;
+    
+}
+.know .details h5{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.know .details p{
+    font-size: 0.8rem;
+    text-align: center;
+}
+.know .details .fa-location-dot, .know .details .fa-phone, .know .details .fa-fax, .know .details .fa-envelope{
+    font-size: 2rem;
+    margin-left: 119px;
+    margin-bottom: 20px;
+    color: rgba(37, 195, 239,0.5);
+}
+/* details// */
+/* form */
+.form{position: relative; background-color: #1762e3;height: 650px;}
+.form form{
+    background-color: rgb(98, 193, 219);
+    position: absolute;
+    left: 342px;
+    top: 135px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 25px;
+}
+.form form input, .form form textarea{margin: 5px 40px;width: 450px;}
+.form h5{
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 90px;
+}
+.form form button{margin-left: 226px;}
+/* form// */
+
+/* login */
+
+/* login// */
+
+.breadcrumb{margin-bottom: 0;}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+.breadcrumb-item{}
+.breadcrumb-item a{text-decoration: none; color:#000; font-weight: 700;}
+.breadcrumb-item a:hover{text-decoration: underline; color:#df1313;}
+
+.mytab{}
+.mytab .tab-content{padding: 2.4rem; background: #fff; box-shadow: 0px 0px 12px rgba(0,0,0,.2);}
+.mytab .nav-item{margin-right: .4rem;}
+.mytab .nav-link{background-color: #df1313; color: aliceblue; font-weight: 700;}
+.mytab .nav-link.active{background-color: #172561; color: aliceblue;}
+
+
+.mycanvas{position: relative;}
+.mycanvas .offcanvas{width: 250px !important;}
+.mycanvas .offcanvas-header button{background-image: url(../images/close-2.png); background-size: 85%;}
+.mycanvas .offcanvas-body img{border-radius: 50%;}
+.mycanvas .offcanvas-body .nav-link{font-size: 1.5rem; transition: 0.2s}
+.mycanvas .offcanvas-body .nav-link:hover{transform: scale(1.1);background-color: rgb(146, 144, 144); transition: 0.2s;}
+.mycanvas .offcanvas-body .fa-gear{position: fixed;bottom: 20px; right: 20px;color:white; font-size: 1.5rem;}
+.mycanvas .offcanvas-body .fa-gear:hover{transform: rotate(180deg); transition: 0.5s;}
